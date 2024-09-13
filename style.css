@@ -1,0 +1,120 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(166, 190, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+.profile-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.container{
+  position: relative;
+  /* width: 100%; */
+  width:580px;
+  max-width: 1000px;
+  min-height:1000px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.3);
+}
+.container .left-side{
+    position: relative;
+    background-color: rgb(17, 127, 146);
+    padding: 40px;
+}
+
+.container .right-side{
+    position: relative;
+    background-color:#fff;
+    padding: 40px;
+}.right-side h1{
+    text-align: center;
+}
+.right-side h5{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+.right-side p{
+    text-align: center;
+    font-size: 13px;
+}
+.edu h2{
+    margin: 30px;
+    text-align: left;
+}
+.edu h5{
+    margin-bottom: 15px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.edu h6{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.edu p{
+    text-align: right;
+}
+.skills h2{
+    margin: 30px;
+    text-align: left;
+}
+
+.skills li{
+    margin: 10px;
+}
+.contact h2{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.contact li{
+    list-style: none;
+    margin: 6px;
+}
+.contact li i{
+    margin-left: -30px;
+    margin-right: 9px;
+}
+.contact li a{
+    
+    color: black;
+}
+.contact li a:hover{
+    color: #fff;
+}
+.lang li{
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+.inter h2{
+    text-align: left;
+}
+.skills button{
+    margin-left: 60%;
+   background-color: rgb(17, 127, 146); 
+   padding: 20px;
+   border-radius: 8px;
+   color: #fff;
+   box-shadow: 2px 2px 4px rgba(40, 40, 41, 0.9);
+}
+.skills button:hover{
+    background-color: rgb(6, 65, 45);
+    cursor: pointer;
+
+}
